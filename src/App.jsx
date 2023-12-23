@@ -24,7 +24,7 @@ function App() {
       <h1>Login Page</h1>
       {status === "error" && <div>Invalid username or password</div>}
       {status === "success" ? (
-        <div>Welcome,user!</div>
+        <div>Welcome, user!</div>
       ) : (
         <form onSubmit={handleSubmit}>
           <label htmlFor="username">Username:</label>
